@@ -2,7 +2,7 @@ import { Show } from "@clerk/expo";
 import { AuthView, UserButton } from "@clerk/expo/native";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Index() {
+export default function Page() {
   return (
     <View style={styles.container}>
       <Text className="text-4xl text-red-500">
