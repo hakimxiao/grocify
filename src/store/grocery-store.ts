@@ -6,7 +6,7 @@ export type GroceryCategory =
   | "Bakery"
   | "Pantry"
   | "Snacks";
-export type GroceryPriority = "low" | "medium" | "high";
+export type GroceryPriority = "rendah" | "sedang" | "tinggi";
 
 export type GroceryItem = {
   id: string;
