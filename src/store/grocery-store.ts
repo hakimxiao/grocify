@@ -1,11 +1,19 @@
 import { create } from "zustand";
 
 export type GroceryCategory =
-  | "Product"
-  | "Dairy"
-  | "Bakery"
-  | "Pantry"
-  | "Snacks";
+  | "Alat"
+  | "Komputer & Elektronik"
+  | "Gadget"
+  | "Snack"
+  | "Aksesoris"
+  | "Pakaian"
+  | "Edukasi"
+  | "Makanan & Minuman"
+  | "Buah & Sayur"
+  | "Daging & Protein"
+  | "Kesehatan"
+  | "Kebersihan"
+  | "Rumah Tangga";
 export type GroceryPriority = "rendah" | "sedang" | "tinggi";
 
 export type GroceryItem = {
