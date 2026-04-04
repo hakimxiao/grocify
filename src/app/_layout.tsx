@@ -9,6 +9,9 @@ import {
   ThemeProvider,
 } from "@react-navigation/native";
 import { useColorScheme } from "react-native";
+
+import { KeyboardProvider } from "react-native-keyboard-controller";
+
 import "../../global.css";
 
 const publishableKey = process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY!;
@@ -22,9 +25,13 @@ export default function RootLayout() {
 
   return (
     <ClerkProvider publishableKey={publishableKey} tokenCache={tokenCache}>
-      <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
-        <Stack screenOptions={{ headerShown: false }} />
-      </ThemeProvider>
+      <KeyboardProvider>
+        <ThemeProvider
+          value={colorScheme === "dark" ? DarkTheme : DefaultTheme}
+        >
+          <Stack screenOptions={{ headerShown: false }} />
+        </ThemeProvider>
+      </KeyboardProvider>
     </ClerkProvider>
   );
 }
