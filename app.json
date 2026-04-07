@@ -8,9 +8,11 @@
     "scheme": "grocify",
     "userInterfaceStyle": "automatic",
     "ios": {
+      "newArchEnabled": false,
       "icon": "./assets/expo.icon"
     },
     "android": {
+      "newArchEnabled": false,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -54,8 +56,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "150b816a-b80a-4ced-a7a1-ba6db351549c"
+        "projectId": "d4ca2d75-8cf2-4acb-890e-b5c7ec38b6ac"
       }
-    }
+    },
+    "owner": "fhakim"
   }
 }
