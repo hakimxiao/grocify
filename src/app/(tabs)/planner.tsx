@@ -38,14 +38,14 @@ const PlannerScreen = () => {
           <View className="flex-row items-start justify-between">
             <View className="flex-1 pr-4">
               <Text className="text-xs font-semibold uppercase tracking-[1.2px] text-muted-foreground">
-                Grocery planner
+                Perencana belanjaan
               </Text>
               <Text className="mt-1 text-[25px] font-bold leading-9 text-foreground font-serif">
-                Plan smarter, shop happier
+                Rencanakan dengan lebih cerdas, belanja dengan lebih bahagia.
               </Text>
               <Text className="mt-2 text-sm leading-5 text-muted-foreground">
-                Organize your next grocery run with categories, quantities, and
-                priority in one place.
+                Atur belanjaan Anda berikutnya dengan kategori, jumlah, dan
+                prioritas di satu tempat.
               </Text>
             </View>
 
@@ -62,7 +62,7 @@ const PlannerScreen = () => {
         <View className="flex-row gap-2">
           <View className="flex-1 rounded-2xl border border-border bg-background/80 p-3">
             <Text className="text-xs font-medium uppercase tracking-[1px] text-muted-foreground">
-              Pending
+              Tertunda
             </Text>
             <Text className="mt-1 text-xl font-bold text-foreground">
               {pendingCount}
@@ -71,7 +71,7 @@ const PlannerScreen = () => {
 
           <View className="flex-1 rounded-2xl border border-border bg-background/80 p-3">
             <Text className="text-xs font-medium uppercase tracking-[1px] text-muted-foreground">
-              High Priority
+              Prioritas Tinggi
             </Text>
             <Text className="mt-1 text-xl font-bold text-foreground">
               {highPriorityCount}
@@ -93,10 +93,11 @@ const PlannerScreen = () => {
 
       <View className="px-1">
         <Text className="text-sm font-semibold uppercase tracking-[1px] text-muted-foreground">
-          Build your list
+          Bangun daftar Anda
         </Text>
         <Text className="mt-1 text-sm text-muted-foreground">
-          Add items with the right quantity, category, and urgency.
+          Tambahkan item dengan jumlah, kategori, dan tingkat urgensi yang
+          tepat.
         </Text>
       </View>
 

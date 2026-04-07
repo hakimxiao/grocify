@@ -52,7 +52,7 @@ export default function InsightsCategorySection() {
     <View className="rounded-3xl border border-border bg-card p-4">
       <View className="flex-row items-center justify-between">
         <Text className="text-sm font-semibold text-foreground">
-          Items by category
+          Barang berdasarkan kategori
         </Text>
         <Text className="text-xs uppercase tracking-[1px] text-muted-foreground">
           {categoryEntries.length} groups
@@ -92,7 +92,7 @@ export default function InsightsCategorySection() {
       {categoryEntries.length === 0 ? (
         <View className="mt-3 rounded-2xl bg-muted px-4 py-3">
           <Text className="text-sm text-muted-foreground">
-            Add items to reveal your category mix.
+            Tambahkan item untuk melihat campuran kategori Anda.
           </Text>
         </View>
       ) : null}

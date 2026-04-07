@@ -96,7 +96,7 @@ const PlannerFormCard = () => {
   return (
     <View className="rounded-3xl border border-border bg-card p-4">
       {/* NAME */}
-      <Text className="text-sm font-semibold text-foreground">Item name</Text>
+      <Text className="text-sm font-semibold text-foreground">Nama barang</Text>
       <View className="mt-2 flex-row items-center rounded-2xl border border-border bg-muted px-4 py-3">
         <FontAwesome6 name="bag-shopping" size={13} color="#5b7567" />
 
@@ -110,9 +110,7 @@ const PlannerFormCard = () => {
       </View>
 
       {/* QUANTITY */}
-      <Text className="mt-4 text-sm font-semibold text-foreground">
-        Quantity
-      </Text>
+      <Text className="mt-4 text-sm font-semibold text-foreground">Jumlah</Text>
       <View className="mt-2 flex-row items-center rounded-2xl border border-border bg-muted px-4 py-3">
         <FontAwesome6 name="hashtag" size={13} color="#5b7567" />
 
@@ -128,7 +126,7 @@ const PlannerFormCard = () => {
 
       {/* CATEGORY */}
       <Text className="mt-4 text-sm font-semibold text-foreground">
-        Category
+        Kategori
       </Text>
       <View className="mt-2 flex-row flex-wrap gap-2">
         {categories.map((option) => {
@@ -161,7 +159,7 @@ const PlannerFormCard = () => {
 
       {/* PRIORITY */}
       <Text className="mt-4 text-sm font-semibold text-foreground">
-        Priority
+        Prioritas
       </Text>
       <View className="mt-2 flex-row gap-2">
         {priorities.map((option) => {
@@ -207,7 +205,7 @@ const PlannerFormCard = () => {
         <Text
           className={`ml-2 text-base font-semibold ${canCreate ? "text-primary-foreground" : "text-muted-foreground"}`}
         >
-          Add to Grocery list
+          Tambahkan ke daftar belanjaan
         </Text>
       </Pressable>
 

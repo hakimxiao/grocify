@@ -13,7 +13,7 @@ const CompletedItems = () => {
   return (
     <View className="mt-1 rounded-3xl border border-border bg-secondary p-4">
       <Text className="text-sm font-semibold uppercase tracking-[1px] text-secondary-foreground">
-        Completed
+        Telah Selesai
       </Text>
 
       {completedItems.map((item) => (

@@ -30,7 +30,7 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#64748b",
           "android": {
             "image": "./assets/images/splash-icon.png",
             "imageWidth": 76
@@ -50,6 +50,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "150b816a-b80a-4ced-a7a1-ba6db351549c"
+      }
     }
   }
 }

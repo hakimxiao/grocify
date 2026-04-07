@@ -21,7 +21,7 @@ const InsightsStatsSection = () => {
             <FontAwesome6 name="clock" size={18} color="#fff" />
           </View>
           <Text className="mt-3 text-xs uppercase tracking-[1px] text-muted-foreground">
-            Pending
+            Tertunda
           </Text>
           <Text className="mt-1 text-3xl font-extrabold text-foreground">
             {pendingItems}
@@ -33,7 +33,7 @@ const InsightsStatsSection = () => {
             <FontAwesome6 name="check" size={18} color="#fff" />
           </View>
           <Text className="mt-3 text-xs uppercase tracking-[1px] text-muted-foreground">
-            Completed
+            Selesai
           </Text>
           <Text className="mt-1 text-3xl font-extrabold text-foreground">
             {completedItems}
@@ -56,7 +56,7 @@ const InsightsStatsSection = () => {
       <View className="rounded-3xl border border-border bg-card p-4">
         <View className="flex-row items-center justify-between">
           <Text className="text-sm font-semibold text-foreground">
-            Completion rate
+            Tingkat penyelesaian
           </Text>
           <Text className="text-sm font-semibold text-primary">
             {completionRate}%

@@ -31,7 +31,7 @@ export default function TabsLayout() {
   return (
     <NativeTabs tintColor={tabTintColor}>
       <NativeTabs.Trigger name="index">
-        <NativeTabs.Trigger.Label>Home</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Label>Beranda</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
           sf={{
             default: "list.bullet.clipboard",
@@ -42,7 +42,7 @@ export default function TabsLayout() {
       </NativeTabs.Trigger>
 
       <NativeTabs.Trigger name="planner">
-        <NativeTabs.Trigger.Label>Planner</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Label>Rencana</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
           sf={{
             default: "plus.circle",
@@ -53,7 +53,7 @@ export default function TabsLayout() {
       </NativeTabs.Trigger>
 
       <NativeTabs.Trigger name="insights">
-        <NativeTabs.Trigger.Label>Insights</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Label>Statistik</NativeTabs.Trigger.Label>
         <NativeTabs.Trigger.Icon
           sf={{
             default: "chart.bar",

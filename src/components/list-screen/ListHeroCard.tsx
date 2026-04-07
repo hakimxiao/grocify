@@ -16,15 +16,15 @@ const ListHeroCard = () => {
       className={`${Platform.OS === "android" ? "rounded-3xl bg-primary p-5 mt-[45px]" : "rounded-3xl bg-primary p-5"}`}
     >
       <Text className="text-sm font-semibold uppercase tracking-[1px] text-primary-foreground/70">
-        Today
+        Hari ini
       </Text>
 
       <Text className="mt-1 text-3xl font-extrabold text-primary-foreground">
-        Your Grocery Board
+        Papan belanja anda
       </Text>
 
       <Text className="mt-1 text-sm text-primary-foreground/80">
-        {pendingCount} pending • {completedCount} completed
+        {pendingCount} tertunda • {completedCount} selesai
       </Text>
 
       <View className="mt-4 overflow-hidden rounded-full bg-white/50">

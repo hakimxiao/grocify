@@ -25,7 +25,7 @@ const UserProfile = () => {
         </View>
         <View className="flex-1">
           <Text className="text-xs uppercase tracking-[1px] text-muted-foreground">
-            Signed in as
+            Login sebagai
           </Text>
           <Text className="mt-1 text-lg font-bold text-foreground">
             {displayName}

@@ -28,7 +28,7 @@ export default function SignInScreen() {
         </Text>
 
         <Text className="mt-1 text-center text-[14px] text-primary-foreground/80 dark:text-foreground/75">
-          Plan smarter, Shop happier
+          Rencanakan dengan pintar, belanja lebih mudah
         </Text>
 
         <View className="mt-6 rounded-[30px] border border-white/20 bg-white/10 p-3">
@@ -43,13 +43,13 @@ export default function SignInScreen() {
       <View className="mt-8 flex-1 rounded-t-[36px] bg-card px-6 pb-8 pt-6">
         <View className="self-center rounded-full bg-secondary px-3 py-1">
           <Text className="text-xs font-semibold uppercase tracking-[1px] text-secondary-foreground">
-            Welcome Back
+            Halo Selamat Datang!
           </Text>
         </View>
 
         <Text className="mt-2 text-center text-sm leading-6 text-muted-foreground">
-          Choose a social provider and jump right into your personalized grocery
-          experience
+          Pilih penyedia layanan sosial dan langsung nikmati pengalaman belanja
+          pribadi Anda.
         </Text>
 
         <View className="mt-6">
@@ -106,7 +106,8 @@ export default function SignInScreen() {
         </View>
 
         <Text className="mt-3 text-center text-sm leading-5 text-muted-foreground">
-          By continuing, you agree to our Terms and Privacy Policy.
+          Dengan melanjutkan, Anda setuju dengan Syarat dan Kebijakan Privasi
+          kami.
         </Text>
       </View>
     </SafeAreaView>
