@@ -23,7 +23,7 @@ if (!publishableKey) {
 }
 
 Sentry.init({
-  dsn: "https://93ad200d87b356d1ff99f446e47bc00c@o4509862801047552.ingest.us.sentry.io/4511176787427328",
+  dsn: process.env.EXPO_PUBLIC_SENTRY_DSN,
   sendDefaultPii: true,
   enableLogs: false,
   integrations: [Sentry.feedbackIntegration()],
