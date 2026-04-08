@@ -62,7 +62,7 @@ const PlannerScreen = () => {
         <View className="flex-row gap-2">
           <View className="flex-1 rounded-2xl border border-border bg-background/80 p-3">
             <Text className="text-xs font-medium uppercase tracking-[1px] text-muted-foreground">
-              Tertunda
+              Tunda
             </Text>
             <Text className="mt-1 text-xl font-bold text-foreground">
               {pendingCount}
@@ -71,7 +71,7 @@ const PlannerScreen = () => {
 
           <View className="flex-1 rounded-2xl border border-border bg-background/80 p-3">
             <Text className="text-xs font-medium uppercase tracking-[1px] text-muted-foreground">
-              Prioritas Tinggi
+              Tinggi
             </Text>
             <Text className="mt-1 text-xl font-bold text-foreground">
               {highPriorityCount}
@@ -80,7 +80,7 @@ const PlannerScreen = () => {
 
           <View className="flex-1 rounded-2xl border border-border bg-background/80 p-3">
             <Text className="text-xs font-medium uppercase tracking-[1px] text-muted-foreground">
-              Units
+              Jumlah
             </Text>
             <Text className="mt-1 text-xl font-bold text-foreground">
               {totalQuantity}
